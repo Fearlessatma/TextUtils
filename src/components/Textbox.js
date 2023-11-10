@@ -15,7 +15,7 @@ export default function Textbox() {
     const change=(event)=>{
         setText(event.target.value)
     }
-    const[text, setText]=useState("enter your text");
+    const[text, setText]=useState("");
   return (
     <>
     
